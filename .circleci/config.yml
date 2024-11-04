@@ -22,7 +22,7 @@ workflows:
           image: 'petez7519/node-addition-service'
           tag: circleci
           context: docker-hub
-          docker-username: pezeli
-          docker-password: SunandSnow2023!
+          docker-username: DOCKER_HUB_USERNAME
+          docker-password: DOCKER_HUB_PASSWORD
           requires:
             - test
